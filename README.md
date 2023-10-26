@@ -1,11 +1,7 @@
-# Dev Portfolio  [![GitHub](https://img.shields.io/github/license/mayankagarwal09/dev-portfolio?color=blue)](https://github.com/mayankagarwal09/dev-portfolio/blob/master/LICENSE.md) ![visitors](https://visitor-badge.glitch.me/badge?page_id=mayankagarwal09.dev-portfolio&color=blue)
+# Dev Portfolio
 
 ## A minimal portfolio template for Developers!
 
-<h2 align="center">
-  <img src="https://github.com/mayankagarwal09/dev-portfolio/blob/master/images/dev-portfolio.gif" alt="Dev Portfolio" />
-  <br>
-</h2>
 
 ## Features
 
@@ -17,7 +13,7 @@
 
 ## Demo
 
-To view the demo: **[click here](https://dev-portfolio-mayankagarwal09.vercel.app)**
+To view the demo: **[click here]()**
 
 ## Why do you need a portfolio? ☝️
 
@@ -29,7 +25,7 @@ To view the demo: **[click here](https://dev-portfolio-mayankagarwal09.vercel.ap
 
 ## Getting Started 🚀
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites 📋
 
@@ -43,10 +39,10 @@ From your command line, first clone Dev Portfolio:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/mayankagarwal09/dev-portfolio
+$ git clone https://github.com/sukhpreet0607/Dev-Portfolio/tree/main
 
 # Move into the repository
-$ cd dev-portfolio
+$ cd Dev-Portfolio
 
 # Remove the current origin repository
 $ git remote remove origin
@@ -126,7 +122,7 @@ It has 2 keys, *logo* and *sections*.
         },
         {
             "title": "Resume",
-            "href": "https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view?usp=sharing",
+            "href": "your resume link",
             "type": "link"
         }
     ]
@@ -213,15 +209,15 @@ It has 2 keys, *logo* and *sections*.
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "href": "your link"
         },
         {
             "network" : "github",
-            "href": "https://github.com/"
+            "href": "your link"
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "mailto:your mail"
         }
     ]
 }
@@ -404,51 +400,16 @@ It has 2 keys, *logo* and *sections*.
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "your link"
                 },
                 {
                     "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": "your link"
                 }
             ],
             "tags" : [
                 "React",
                 "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
                 "JavaScript"
             ]
         }
@@ -473,88 +434,9 @@ It has 2 keys, *logo* and *sections*.
 - It is a clickable link which opens the link provided (generally drive link of resume file) in the navbar.json under Resume.
 
 
-### Step 2 - STYLES
 
-Change the color theme of the website -
-
-Go to `/src/theme/themes.js` and change the values of the required components both under lightTheme and darkTheme with your prefered HEX color.
-
-
-```theme
-//Default Values
-export const lightTheme = {
-  background: '#fff',
-  color: '#121212',
-  accentColor: '#3D84C6',
-  chronoTheme: {
-    cardBgColor: 'white',
-    cardForeColor: 'black',
-    titleColor: 'white',
-  },
-  timelineLineColor: '#ccc',
-  cardBackground: '#fff',
-  cardFooterBackground: '#f7f7f7',
-  cardBorderColor: '#00000020',
-  navbarTheme: {
-    linkColor: '#dedede',
-    linkHoverColor: '#fefefe',
-    linkActiveColor: '#fefefe',
-  },
-  bsPrimaryVariant: 'light',
-  bsSecondaryVariant: 'dark',
-  socialIconBgColor: '#121212',
-};
-
-export const darkTheme = {
-  background: '#121212',
-  color: '#eee',
-  accentColor: '#3D84C6',
-  chronoTheme: {
-    cardBgColor: '#1B1B1B',
-    cardForeColor: '#eee',
-    titleColor: 'black',
-  },
-  timelineLineColor: '#444',
-  cardBackground: '#060606',
-  cardFooterBackground: '#181818',
-  cardBorderColor: '#ffffff20',
-  navbarTheme: {
-    linkColor: '#dedede',
-    linkHoverColor: '#fefefe',
-    linkActiveColor: '#fefefe',
-  },
-  bsPrimaryVariant: 'dark',
-  bsSecondaryVariant: 'light',
-  socialIconBgColor: '#fefefe',
-};
-
-```
-
-### Step 3 - EXTRA
+### EXTRA
 
 Go to `public/index.html`. Change *title* and *logo* if you want to customize it.
 
 ---
-
-## Deployment 📦
-
-Once you finish your setup. You need to put your website online!
-
-I highly recommend to use [Vercel](https://vercel.app) because it is super easy.
-
-## Notable Portfolios made using this template
-
-- [Mayank Agarwal](https://mayankagarwal.me)
-
-## Authors
-
-- **Mayank Agarwal** - [https://github.com/mayankagarwal09](https://github.com/mayankagarwal09)
-
-## Support
-
-If you find a bug, feel free to [open an issue](https://github.com/mayankagarwal09/dev-portfolio/issues) in this repository.
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
