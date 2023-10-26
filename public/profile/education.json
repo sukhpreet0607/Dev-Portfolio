@@ -1,0 +1,19 @@
+{
+    "education":[
+        {
+            "title": "June 2020 - June 2024",
+            "cardTitle": "B.Tech, Computer Science",
+            "cardSubtitle":"Vishwakarma Institute of Technology, Pune",
+            "cardDetailedText": "CGPA - 9.0",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "April 2018 - June 2020",
+            "cardTitle": "High School",
+            "cardSubtitle":"Nowrosjee Wadia College, Pune",
+            "cardDetailedText": "Marks - 80%"
+        }
+    ]
+}

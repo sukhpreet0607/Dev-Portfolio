@@ -1,0 +1,96 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/portfolio-poster.png",
+            "title": "Dev Portfolio",
+            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": ""
+                },
+                {
+                    "text": "Live",
+                    "href": ""
+                }
+            ],
+            "tags" : [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        },
+        {
+            "image" : "images/projects/smart-bus.jpg",
+            "title": "Smart Xpress -  Bus App",
+            "bodyText": "- A web application to provide the hassle-free experience to public bus users.\n - It includes management for bus transportation, including payment and bus route tracking while travelling.\n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/sukhpreet0607/Smart_Express/tree/sukhpreet-dev"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://sweet-cactus-60ca08.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "ReactJS",
+                "JavaScript",
+                "MUI",
+                "Razorpay"
+            ]
+        },
+        {
+            "image" : "images/projects/dedup-x.jpg",
+            "title": "D-DedupX",
+            "bodyText": "- D-DedupX is a cloud-based data deduplication system utilizing algorithms to optimize storage efficiency.\n - It identifies and store unique data chunks across multiple uploaded files.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/sukhpreet0607/Data_Deduplication-VIT-Veritas-/tree/sukhpreet-dev"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Flask",
+                "Hashing",
+                "Storage"
+            ]
+        },
+        {
+            "image" : "images/projects/social.jpg",
+            "title": "Social Safeguard",
+            "bodyText": "- A real-time social distancing violation detection system using computer vision and deep learning.\n - Integrated object detection model YOLO with streamlit for user friendly video input and alerts.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/sukhpreet0607/Streamlit-web-app"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Streamlit",
+                "ML",
+                "YOLO"
+            ]
+        },
+        {
+            "title": "PrePy - Data Preprocessing Library",
+            "bodyText": "- A python library for performing pre-processing data methods.\n - It can be easily imported and ready to use.\n - It includes some methods such as missing data, normalizing data, Finding co-relations, etc.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/sukhpreet0607/PrePy---Data-Preprocessing-Library"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "ML",
+                "Data",
+                "Statistics",
+                "Library"
+            ]
+        }
+    ]
+}

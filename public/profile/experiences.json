@@ -1,0 +1,34 @@
+{
+    "experiences": [
+        {
+            "title": "Software Engineer Intern",
+            "subtitle": "Veritas Technologies",
+            "workType": "Internship",
+            "workDescription": [
+                "Designed and implemented a cloud-based **data deduplication** system.",
+                "Demonstrated strong problem-solving skills, performance optimization, and an understanding of cloud storage principles."
+            ],
+            "dateText": "09/2022 – 12/2022"
+        },
+        {
+            "title": "Software Engineer Intern",
+            "subtitle": "Vodafone Intelligent Solutions",
+            "workType": "Internship",
+            "workDescription": [
+                "Led the design and development of a **fully-fledged automated system** for public transport.",
+                "Revamped the web application's user interface, enhancing its usability and visual appeal."
+            ],
+            "dateText": "05/2022 – 08/2022"
+        },
+        {
+            "title": "Frontend Developer Intern",
+            "subtitle": "Neyx",
+            "workType": "Internship",
+            "workDescription": [
+                "Implemented responsive design principles with use of Material UI and utilized React hooks to enhance functionality.",
+                "Integrated HTML and CSS to promote positive intuitive designs, site interactions and user experiences."
+            ],
+            "dateText": "03/2022 – 05/2022"
+        }
+    ]
+}
